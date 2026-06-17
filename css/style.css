@@ -683,9 +683,12 @@ nav ul.dropdown-list
 	margin: 1rem;
 }
 
-.profile-img
-{
-	border-radius: 50px;
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
 }
 
 .client-name
